@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Internet Survey</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+	<h1>Internet Survey</h1>
+
+	<p>Please complete the following survey to provide us with information so that 
+we can better serve you.&nbsp; Your information will be kept private and will 
+not be shared with any other organization.
+	</p>
+
+<form action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp" method="post"> 
+
+	<input type="hidden" name="recipient" value="rbaker64@mail.mccneb.edu">
+	<input name="title" type="hidden" value="Thank you for taking the time to complete the form.  Below is the information that you submitted.  Please print this page and keep it for your records.">	
+	<input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~rbaker64/">
+	<input name="return_link_title" type="hidden" value="Home">
+	
+<fieldset><legend>Contact Information</legend>
+	<p>First Name:  <input type="text" id="fname" name="fname" size="15" autofocus>  
+    &nbsp;&nbsp;&nbsp; 
+	*Last Name:  
+    <input type="text" id="lname" name="lname" size="30" required>
+	</p>
+
+	<p>*Email:  <input type="text" id="email" name="email" size="20">
+	</p>
+</fieldset>
+
+	<p>Do you currently have access to the Internet from home? 
+		<input type="radio" name="access" id="yes" value="Yes"> Yes 
+		<input type="radio" name="access" id="no" value="No"> No
+   </p>
+
+	<p>Who currently uses the Internet in your home! (Please check all that apply)</p>
+
+	<ul style="list-style-type: none">
+		<li><input type="checkbox" name="adultm" id="adultm"> Adult--Male</li>
+		<li><input type="checkbox" name="adultf" id="adultf"> Adult--Female</li>
+		<li><input type="checkbox" name="childm" id="childm"> Child--Male</li>
+		<li><input type="checkbox" name="childf" id="childf"> Child--Female</li>
+	</ul>
+
+	<p>Please select the type of Internet access you use from home: 
+		<select name="accesstype" id="accesstype">
+			<option value="dialup">Dial-up</option>
+			<option value="cable">Cable Modem</option>
+			<option value="lan">LAN</option>
+			<option>No access</option>
+		</select>
+	</p>
+
+	<p>Briefly explain how you use the Internet in your home:<br>
+		<textarea name="internetuse" id="internetuse" rows="5" cols="60"></textarea>
+	</p>
+
+	<p><input type="submit" value="Submit"> 
+	&nbsp;
+	<input type="reset" value="Clear Form"></p>
+	<p>*Required</p>
+</form>
+
+</body>
+</html>

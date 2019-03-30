@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Form Resources</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="Form%20Resources_files/bootstrap.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <img src="Form%20Resources_files/mcc.gif" alt="" width="50" height="43"> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.mccinfo.net/webresources/default.htm">Home <span class="sr-only">(current)</span></a> </li>
+        <li><a href="https://www.mccinfo.net/webresources/dreamweaver_definesite/definesiteindreamweaver.htm">Dreamweaver </a></li>
+        <li><a href="https://www.mccinfo.net/webresources/eportfolios/default.htm">ePortfolios</a></li>
+        <li class="active"><a href="https://www.mccinfo.net/webresources/formmail_asp_instructions/formmailinstruct.htm">Forms</a></li>
+        <li><a href="https://www.mccinfo.net/webresources/ftphandout/ftp_instructions.htm">FTP</a></li>
+        <li><a href="https://www.mccinfo.net/webresources/xhtml_specs.htm">Style Guide</a></li>
+        <li><a href="https://www.mccinfo.net/webresources/webdev/webdev_process.htm">Web Development Process</a></li>
+        <li><a href="https://www.mccinfo.net/webresources/wordpress/wordpress.html">WordPress</a></li>
+        <li><a href="https://www.mccinfo.net/webresources/VPN/vpn.html">VPN</a></li>
+      </ul>
+      <!--<form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a> </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a> </li>
+            <li><a href="#">Another action</a> </li>
+            <li><a href="#">Something else here</a> </li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a> </li>
+          </ul>
+        </li>
+      </ul>-->
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- HEADER -->
+<header>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">INFO Web Resources</h1>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- / HEADER --> 
+
+<!--  SECTION-1 -->
+<section>
+  
+    
+    <h2>FORMS
+    </h2>
+    <h3 align="left"> <strong style="font-weight: 400">Formmail.asp Instructions</strong></h3>
+    <p>In most of the Web design courses, we will be using the script  named <strong>formmail.asp</strong>
+ to process our forms. Remember that the script will control what 
+happens to the data submitted through a form once it reaches the server.
+ When a script is written, the programmer decides what will happen to 
+the data and if they want to provide a way for the Web designer to 
+customize the script through the HTML code. </p>
+    <p>In general, this script will do the following when the form is submitted:</p>
+    <ul>
+      <li>take the data submitted from the form and post it to&nbsp;an email message</li>
+      <li>send the email to the recipient's email address</li>
+      <li> display a default return page in the browser</li>
+    </ul>
+    <p>The script we are using, formmail.asp, allows us to customize how
+ a form is processed using the input tags described in the table 
+below.&nbsp;Most of these input tags are hidden which means that the 
+visitor filling out the form doesn't see them, but they are included in 
+the data that is sent to the script when the form is submitted. The 
+script will know how to use this data when processing the form.</p>
+    <p>To make sure that only Web forms uploaded to one of our MCC 
+servers can use this form, the script will only allow forms to be 
+processed when they are submitted from one or our servers. <span class="important">You will need to upload your forms that are processed using this script to the server to test them.&nbsp;</span></p>
+    <h3>Setting Up the Form </h3>
+    <p>This script is located at<strong> https://www.mccinfo.net/webresources/cgi-bin/formmail.asp.</strong>&nbsp; The first step is to set the form action and method in
+      the &lt;form&gt; tag. This should be set as follows:</p>
+    <p class="codestyle"> &lt;form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp"&gt; </p>
+    <p>To control how the form is processed, you can include a few (or many) of the input tags listed below. The <strong>recipient</strong>
+ input tag is the only one that is required. They need to be placed any 
+where on the form between the opening and closing form tags. Here are 
+some sample forms. To view the sample code, click the link to open the 
+form and then use the browser command to view the page source. </p>
+    <table width="100%" cellspacing="0" border="3">
+      <tbody><tr>
+        <td width="8%" valign="top"><img src="Form%20Resources_files/binnocs.gif" alt="look" width="55" height="39" border="0" align="middle"></td>
+        <td width="92%"><p align="left">Sample forms using the formmail.asp script. </p>
+          <ul>
+            <li>This form is using the default return page with many of the hidden input tags available to customize it.&nbsp; <a target="_blank" href="https://www.mccinfo.net/webresources/formmail_asp_instructions/emailform_testing.htm">Help Center Form</a> (using default return page)</li>
+            <li>This form is using a custom return page using the redirect hidden input tag.&nbsp; <a target="_blank" href="https://www.mccinfo.net/webresources/formmail_asp_instructions/emailform_testing_redirect.htm">Feedback Form</a> (using custom return page)</li>
+          </ul></td>
+      </tr>
+    </tbody></table>
+    <p>&nbsp;</p>
+    <h3>The following fields are recognized by the script: </h3>
+    <table cellpadding="5" border="1">
+      <tbody><tr>
+        <th width="112" valign="top">Input name</th>
+        <th width="710">Description</th>
+      </tr>
+      <tr>
+        <td valign="top"><strong>recipient</strong></td>
+        <td><p><span class="important">Only input tag <strong>required</strong> by the script. </span>This
+          form field allows you to specify to whom you wish for your form results
+          to be mailed. To send the form to multiple recipients separate them with
+          a comma but not space. At this time, the script will only send email to a Metro email account. </p>
+          <p><b>Example:</b><br>
+            <span class="codestyle">&lt;input name="recipient" type="hidden" value="username@mail.mccneb.edu"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>subject</strong></td>
+        <td>Subject of the email message. Use input type="text" if you want the user 
+          to be able to set the topic. Use type="hidden" if you want to set the 
+          subject line
+          <p><b>Example:</b><br>
+            If you wish to choose what the subject is:<span class="codestyle"> <br>
+              &lt;input
+              type="hidden" name="subject" value="Your Subject"&gt; </span></p>
+          <p>To
+            allow the user to choose a subject:<span class="codestyle"> <br>
+              &lt;input
+              type="text" name="subject"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>realname</strong></td>
+        <td>The name of the user filling out the form as entered by
+          the user.
+          <p><b>Example:</b><br>
+            <span class="codestyle">&lt;input name="realname" type="text"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>email</strong></td>
+        <td>This form field will allow the user to specify their return
+          e-mail address. If you name the text field "email", the
+          ASP script will require that the format of the email address entered
+          be in a valid format.&nbsp; This also makes the email input field a required
+          field.&nbsp; If you don't want this field to be required, use a slightly
+          different name for the the input field.&nbsp; Something like "emailaddress" could
+          be used.
+          <p><b>Example:</b><br>
+            <span class="codestyle">&lt;input name="email" type="text"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>comments</strong></td>
+        <td>Textarea or field with the actual message of the sender</td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>required</strong></td>
+        <td>Defines what input fields must be filled out by the user. Use a 
+          comma-delimited list for the value, for example value="email,realname,phone"
+          <p> <b>Example:</b><br>
+            <span class="codestyle">&lt;input name="required" type="hidden" value="email,info,realname"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>redirect</strong></td>
+        <td><p class="style3"> Specify a URL in this field to redirect 
+the user to
+          a custom return page once the email has been successfully sent
+ rather than
+          showing the default return page. The custom return page is a 
+page that you would create with the layout, format, content, and 
+navigation that you would want to include. You must use the complete URL
+ to point to the custom return page on your student site. </p>
+          <p><b>Example:</b><br>
+            <span class="codestyle">&lt;input name="redirect" type="hidden" value="http://student.mccinfo.net/~username/response.htm"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>hide_blanks</strong></td>
+        <td><p>Hides blank fields in the emailed results. If you add
+          this field to your form with a value of "1" fields
+          not filled  out by the user are not printed in the body of the email
+          message.</p>
+          <p><strong>Example:</strong><br>
+            <span class="codestyle">&lt;input type="hidden" name="hide_blanks" value="1"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>bgcolor</strong></td>
+        <td>Background color of the return page.
+          <p> <b>Example:</b><br>
+            <span class="codestyle">&lt;input name="bgcolor" type="hidden" value="#FFFF99"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>background</strong></td>
+        <td>Background image of the return page. Must be a complete URL
+          <p> <b>Example:</b><br>
+            <span class="codestyle">&lt;input name="background" type="hidden" value="http://student.mccinfo.net/username/marble.jpg"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>text_color</strong></td>
+        <td><p>Color of text on the return page.</p>
+          <p><strong>Example:</strong><br>
+            <span class="codestyle">&lt;input type="hidden" name="text_color" value="#000000"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>link_color</strong></td>
+        <td><p>Color of links on the return page.</p>
+          <p><strong>Example:</strong><br>
+            <span class="codestyle">&lt;input type="hidden" name="link_color" value="#FF0000"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>vlink_color</strong></td>
+        <td>Color of visited links on the return page.</td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>alink_color</strong></td>
+        <td>Color of active links on the return page.</td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>title</strong></td>
+        <td>Title of the return page.
+          <p><b>Example:</b><br>
+            <span class="codestyle">&lt;input name="title" type="hidden" value="Thank 
+              you for taking the time to complete the form.&nbsp; Below is the information 
+              that you submitted.&nbsp; Please print this page and keep it for your 
+              records."&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>return_link_url</strong></td>
+        <td>The URL of the page the user gets to from the return page. Must use a complete URL
+          <p> <b>Example:</b><br>
+            <span class="codestyle">&lt;input name="return_link_url" type="hidden" value="http://student.mccinfo.net/~wstudent/"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>return_link_title</strong></td>
+        <td>Title of the return link.
+          <p><b> Example:</b><br>
+            <span class="codestyle">&lt;input name="return_link_title" type="hidden" value="Home"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>font_face</strong></td>
+        <td>Font face on return page. Use comma delimited list.
+          <p><b> Example:</b><br>
+            <span class="codestyle">&lt;input name="font_face" type="hidden" value="Arial,Helvetica"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>font_size</strong></td>
+        <td><p>Font size on return page. The value used with this
+          tag is based on the HTML font size scale of 1-7.</p>
+          <p><b>Example:</b><br>
+            <span class="codestyle">&lt;input name="font_size" type="hidden" value="6"&gt;</span></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>no_table</strong></td>
+        <td>Set value to "1" if you don't want tables on the 
+          return-page</td>
+      </tr>
+      <tr>
+        <td valign="top"><strong>env_report</strong></td>
+        <td>Use the value of HTTP_USER_AGENT and the browser that the 
+          user is in will be reported along with the information they submit in the 
+          form.
+          <p><b>Example:</b><br>
+            <span class="codestyle">&nbsp;&lt;input type="hidden" name="env_report" value="HTTP_USER_AGENT"&gt; </span></p></td>
+      </tr>
+    </tbody></table>
+    <p align="left">&nbsp;</p>
+    <address>
+Updated
+<!-- #BeginDate format:Am1 -->January 4, 2017<!-- #EndDate -->
+    </address>
+<p>&nbsp;</p>
+    <div class="row"></div>
+  
+  <!-- / CONTAINER--> 
+</section>
+<div class="well"> </div>
+
+<!-- FOOTER -->
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © Laurie Olberding | All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- / FOOTER --> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="Form%20Resources_files/jquery.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="Form%20Resources_files/bootstrap.js"></script>
+
+
+</body></html>

@@ -1,0 +1,108 @@
+/*
+	Ryan Baker
+	prime.css
+	INFO 1311.2A
+    Olberding
+    4/4/2018
+*/
+
+* {box-sizing: border-box;
+} /*to help with backwards compatibility*/
+
+header,main,nav,footer,section,article, figure, figcaption, aside {display: block;
+} /*to help with backwards compatibility*/
+
+body {font: arial, helvetica, sans-serif;
+		margin: 0px;
+		background-color: #003366;
+		color: #ffffcc;
+		}
+
+header {text-align: center;
+}
+
+header img {height: auto;
+		width: auto;
+}
+
+nav {float: left;
+		width: 150px;
+		color: #000066;
+}
+
+nav ul {list-style-type: none;
+}
+
+nav ul li {padding-bottom: 5px;
+}
+
+nav a {text-decoration: none;
+}
+
+a:visited {text-decoration: none;
+		color: #000066;
+}
+
+main {margin-left: 150px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+}
+
+main img {float: right;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 15%;
+}
+		
+h1 {font-family: Impact, sans-serif;
+		font-size: 4em;
+		color: hsla(0, 0%, 0%, .2);
+		padding-left: 160px;
+		padding-top: 10px;		
+		text-shadow: 2px 1px 1px #000000;
+		opacity: .55;
+		}
+		
+h2 {color: black;
+		margin-top: 20px;
+		margin-left: 30px;
+		}
+		
+h3 {color: black;
+		margin-top: 20px;
+		margin-left: 30px;
+		}
+		
+footer {color: black;
+		text-align: center;
+		padding-top: 10px;
+		font-size: .8em;
+		font-style: italic;
+		clear: both; /*to move footer to the bottom and not conflict with anything*/
+		border-top: 1px solid #003366;
+		}
+
+footer p {padding: 4px;
+		display: inline;
+}		
+		
+#wrapper {width: 680px;
+		margin-left: auto;		
+		margin-right: auto;
+		background-color: #ffffcc;
+		color: #000066;
+		padding-left: 10px;
+		padding-top: 20px;
+		border-radius: 15px;
+}
+
+.location {font-weight: bold;
+		color: #003366;
+}
+
+.copyright {font-style: italic;
+}
+		
+		
+		
+		

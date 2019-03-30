@@ -1,0 +1,87 @@
+﻿/* CSS Document */
+
+body {
+	margin: 20px 25px 20px 25px;
+	font-size: 0.88em;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	color: #333;
+	line-height: 1.4em;
+}
+.codestyle {
+	font-family: "Courier New", Courier, monospace;
+	color: #0000FF;
+	font-weight: bold;
+	font-size: 110%;
+}
+.demo {
+	font-family: monospace;
+	font-weight: normal;
+	font-size: 110%;
+	margin: 2em;
+	padding: 2em;
+	border: 1px solid gray;
+	color: navy;
+}
+
+p {
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+}
+h1 {
+	margin: 0em 0em 1em 0em;
+	font-size: 1.7em; /* 24px divided by 14px */
+	;
+	line-height: 0.75em; /* 18px divided by 24px */
+}
+h2 {
+	margin: 0em 0em .9em 0em;
+	font-size: 1.5em; /* 20px */
+	;
+	line-height: 0.9em;
+}
+h3 {
+	margin: 0em 0em .6em 0em;
+	font-size: 1.25em;
+	line-height: 1.125em;
+}
+h4 {
+	font-size: 1em;
+}
+
+.points {
+	color: #FF0000;
+	font-size: .88em;
+	text-transform: none;
+	font-style: italic;
+	font-weight: bold;
+	text-align: left;
+}
+.code
+
+{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 110%;
+	color: navy;
+
+}
+li {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+address {
+	text-align: right;
+	font-size: .9em;
+	}
+
+.important {
+	/*font-size: 1.3em;*/
+	font-weight: bold;
+	color: #F00;
+}
+.highlight {
+	font-weight: bold;
+	background-color: #FF3;
+}
