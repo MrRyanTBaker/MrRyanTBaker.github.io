@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="transformation4.xsl" type="text/xsl"?>
+<!DOCTYPE collection SYSTEM "validation4.dtd">
+<!--Baker-->
+
+<collection>
+    <aquisition>
+        <audio count="1">
+            <company></company>  <!-- method of aquiring -->
+            <method></method>  <!-- download, rental, purchase -->
+            <content></content>  <!-- music, podcast, multiple -->
+            <automatic></automatic> <!--renew subs automatically -->
+            <affordability></affordability>
+        </audio>
+        <audio count="2">
+            <company>Omaha Public Library</company>  
+            <method>Rental</method> 
+            <content>CD's, audio books, and other physical mediums. Membership allows access to partnership materials as well.</content>  
+            <automatic>Can be set for delivery based on searches on their website, available for waitlisting and sameday pick-up.</automatic> 
+            <affordability>Free</affordability>
+        </audio>
+        <audio count="3">
+            <company>iTunes</company>  
+            <method>Download</method>  
+            <content>Podcast and MP3</content> 
+            <automatic>Yes</automatic> 
+            <affordability>Mixture of free and purchasable content.</affordability>
+        </audio>
+        <audio count="4">
+            <company>Sticher</company>  
+            <method>Download or Streaming</method>  
+            <content>Podcasts</content>  
+            <automatic>Yes</automatic>
+            <affordability>Mixture of free and purchasable content.</affordability>
+        </audio>
+        <audio count="5">
+            <company>Amazon.com</company>  
+            <method>Purchase or stream and download with Prime Membership</method>  
+            <content>Digital and physical content.</content>  
+            <automatic>No</automatic>
+            <affordability>Mixture of free and purchasable content. Additional content subject to subscription.</affordability>
+        </audio>
+    </aquisition>
+</collection>

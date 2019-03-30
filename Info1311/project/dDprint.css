@@ -1,0 +1,21 @@
+header, nav, main, footer { display: block; 
+}
+		header h1 {display: none;}
+		header h2 {display: none;}
+		h1{color: black;}
+		h2{color: black;}
+		header {text-align:center;
+		border: 0;}
+		header img {float: none;
+		padding-left: 0px;}
+		main {font-size: 80%;
+		padding: 0px;}
+		main img {display: none;}
+		footer p{display: none;}
+		footer img{display: none;}
+		#wrapper {margin: 0px;
+		padding: 0px;
+		border: 0;}
+		nav {display: none;}
+		video {display: none;}
+		figcaption {display: none;}

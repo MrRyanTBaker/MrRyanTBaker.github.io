@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="transformation2.xsl" type="text/xsl"?>
+<!DOCTYPE collection SYSTEM "validation2.dtd">
+<!--Baker-->
+
+<collection>
+    <waiting>
+        <album count="1">
+            <title>Honey</title>
+            <artist>Robyn</artist>
+            <genre>Pop</genre>
+            <year>2018</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="2">
+            <title>Symphony of Hits</title>
+            <artist>Michael Bolton</artist>
+            <genre>Jazz</genre>
+            <year>2019</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="3">
+            <title>Joy as An Act of Resistance</title>
+            <artist>Idles</artist>
+            <genre>Rock</genre>
+            <year>2018</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="4">
+            <title>No More Normal</title>
+            <artist>Swindle</artist>
+            <genre>Electronica</genre>
+            <year>2019</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="5">
+            <title>Simulation Theory</title>
+            <artist>Muse</artist>
+            <genre>Rock</genre>
+            <year>2018</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="6">
+            <title>DNA</title>
+            <artist>Backstreet Boys</artist>
+            <genre>Pop</genre>
+            <year>2019</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="7">
+            <title>2019 Grammy Nominees</title>
+            <artist>Various</artist>
+            <genre>Pop</genre>
+            <year>2019</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="8">
+            <title>Trench</title>
+            <artist>Twenty One Pilots</artist>
+            <genre>Rock</genre>
+            <year>2018</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="9">
+            <title>Weezer</title>
+            <artist>Weezer</artist>
+            <genre>Rock</genre>
+            <year>2019</year>
+            <tracks>Unknown</tracks>
+            <description>None at this time.</description>
+        </album>
+        <album count="10">
+            <title>A Star is Born</title>
+            <artist>Various</artist>
+            <genre>Soundtrack</genre>
+            <year>2018</year>
+            <tracks>Unknown</tracks>
+            <description>Soundtrack to the 2018 film.</description>
+        </album>
+    </waiting>
+</collection>

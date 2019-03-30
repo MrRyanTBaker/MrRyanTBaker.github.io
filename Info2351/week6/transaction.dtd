@@ -1,0 +1,32 @@
+<!--  DTD for 'transaction', a simple XML language
+	for MCT215 at Metropolitan Community College.
+	Written by Olivia Gruber -->
+
+<!-- transaction is the root element -->
+<!ELEMENT transaction (regNum, date, store, CustomerNumber, Order, itemCount, tax, totalPrice, totalPaid, paymentDetails)>
+
+<!-- A list of the children of the root element follows -->
+<!ELEMENT regNum (#PCDATA)>
+<!ATTLIST regNum type CDATA "A">
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT store (#PCDATA)>
+<!ELEMENT CustomerNumber (#PCDATA)>
+<!ELEMENT Order (item+)>
+<!ELEMENT itemCount (#PCDATA)>
+<!ELEMENT tax (#PCDATA)>
+<!ELEMENT totalPrice (#PCDATA)>
+<!ELEMENT totalPaid (#PCDATA)>
+<!ATTLIST totalPaid method CDATA #REQUIRED>
+<!ELEMENT paymentDetails (#PCDATA)>
+<!ATTLIST paymentDetails method CDATA #REQUIRED>
+
+<!--  'item' is the child of the order element -->
+<!ELEMENT item (description, UPC, price, department, quantity, extPrice)>
+<!-- And the children of the 'item' element follow -->
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT UPC (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT extPrice (#PCDATA)>
+

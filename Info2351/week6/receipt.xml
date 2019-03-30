@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DTD for 'transaction', a simple XML language
+  for MCT215 at Metropolitan Community College.
+  Written by Olivia Gruber
+-->
+<!-- transaction is the root element -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="transaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="regNum"/>
+        <xs:element ref="date"/>
+        <xs:element ref="store"/>
+        <xs:element ref="CustomerNumber"/>
+        <xs:element ref="Order"/>
+        <xs:element ref="itemCount"/>
+        <xs:element ref="tax"/>
+        <xs:element ref="totalPrice"/>
+        <xs:element ref="totalPaid"/>
+        <xs:element ref="paymentDetails"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- A list of the children of the root element follows -->
+  <xs:element name="regNum">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="attlist.regNum"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.regNum">
+    <xs:attribute name="type" default="A"/>
+  </xs:attributeGroup>
+  <xs:element name="date" type="xs:string"/>
+  <xs:element name="store" type="xs:string"/>
+  <xs:element name="CustomerNumber" type="xs:string"/>
+  <xs:element name="Order">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="itemCount" type="xs:string"/>
+  <xs:element name="tax" type="xs:string"/>
+  <xs:element name="totalPrice" type="xs:string"/>
+  <xs:element name="totalPaid">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="attlist.totalPaid"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.totalPaid">
+    <xs:attribute name="method" use="required"/>
+  </xs:attributeGroup>
+  <xs:element name="paymentDetails">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="attlist.paymentDetails"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.paymentDetails">
+    <xs:attribute name="method" use="required"/>
+  </xs:attributeGroup>
+  <!-- 'item' is the child of the order element -->
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="description"/>
+        <xs:element ref="UPC"/>
+        <xs:element ref="price"/>
+        <xs:element ref="department"/>
+        <xs:element ref="quantity"/>
+        <xs:element ref="extPrice"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- And the children of the 'item' element follow -->
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="UPC" type="xs:string"/>
+  <xs:element name="price" type="xs:string"/>
+  <xs:element name="department" type="xs:string"/>
+  <xs:element name="quantity" type="xs:string"/>
+  <xs:element name="extPrice" type="xs:string"/>
+</xs:schema>

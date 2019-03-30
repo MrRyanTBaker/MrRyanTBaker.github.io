@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT contents (unit+) >
+<!ELEMENT unit (numeral, title, start, sections) >
+<!ELEMENT numeral (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT start (#PCDATA) >
+<!ELEMENT sections (chapter+) >
+<!ELEMENT chapter (number, name, page) >
+<!ELEMENT number (#PCDATA) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT page (#PCDATA) >
+<!ATTLIST unit order CDATA #REQUIRED >
+<!ATTLIST sections group CDATA #REQUIRED >

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="transformation1.xsl" type="text/xsl"?>
+<!DOCTYPE collection SYSTEM "validation1.dtd">
+<!--Baker-->
+<collection>
+    <recent>
+        <album count="1">
+            <title>The Hex</title>
+            <artist>Richard Swift</artist>
+            <genre>Alternative Rock</genre>
+            <year>2018</year>
+            <tracks>11</tracks>
+            <description>Last album produced by artist before his death.</description>
+        </album>
+        <album count="2">
+            <title>What A Time To Be Alive</title>
+            <artist>Superchunk</artist>
+            <genre>Alternative Rock</genre>
+            <year>2018</year>
+            <tracks>11</tracks>
+            <description>None</description>
+        </album>
+        <album count="3">
+            <title>001</title>
+            <artist>Joe Strummer</artist>
+            <genre>Alternative Rock</genre>
+            <year>2018</year>
+            <tracks>32</tracks>
+            <description>Two disc compilatione of unreleased material.</description>
+        </album>
+        <album count="4">
+            <title>The Prophet Speaks</title>
+            <artist>Van Morrison</artist>
+            <genre>Jazz</genre>
+            <year>2018</year>
+            <tracks>14</tracks>
+            <description>None</description>
+        </album>
+        <album count="5">
+            <title>Shiny and Oh So Bright, Vol. 1</title>
+            <artist>The Smashing Pumpkins</artist>
+            <genre>Alternative Rock</genre>
+            <year>2018</year>
+            <tracks>9</tracks>
+            <description>None</description>
+        </album>
+        <album count="6">
+            <title>MassEducation</title>
+            <artist>St. Vincent</artist>
+            <genre>Alternative Rock</genre>
+            <year>2018</year>
+            <tracks>12</tracks>
+            <description>Parental Advisory</description>
+        </album>
+        <album count="7">
+            <title>Kids See Ghosts</title>
+            <artist>Kids See Ghosts</artist>
+            <genre>Hip Hop</genre>
+            <year>2018</year>
+            <tracks>7</tracks>
+            <description>Group comprised of Kanye West and Kid Cudi.</description>
+        </album>
+        <album count="8">
+            <title>Collapse EP</title>
+            <artist>Aphex Twin</artist>
+            <genre>Electronica</genre>
+            <year>2018</year>
+            <tracks>5</tracks>
+            <description>None</description>
+        </album>
+        <album count="9">
+            <title>Greatest Hits</title>
+            <artist>Dolly Parton</artist>
+            <genre>Country</genre>
+            <year>2011</year>
+            <tracks>37</tracks>
+            <description>Two disc compilation of artist's work.</description>
+        </album>
+        <album count="10">
+            <title>Ultraviolet</title>
+            <artist>Kelly Moran</artist>
+            <genre>Electronica</genre>
+            <year>2018</year>
+            <tracks>7</tracks>
+            <description>None</description>
+        </album>
+        <album count="11">
+            <title>Bang the World</title>
+            <artist>Spyder Baybie Raw Dog</artist>
+            <genre>Hip Hop</genre>
+            <year>2011</year>
+            <tracks>19</tracks>
+            <description>None</description>
+        </album>
+        <album count="12">
+            <title>Piano and A Microphone 1983</title>
+            <artist>Prince</artist>
+            <genre>Pop</genre>
+            <year>2018</year>
+            <tracks>9</tracks>
+            <description>Album released after the artist's death, previously unreleased.</description>
+        </album>
+    </recent>
+</collection>

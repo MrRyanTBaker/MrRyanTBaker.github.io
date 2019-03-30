@@ -1,0 +1,36 @@
+song {background-color: #2fa515;
+margin: 2%;
+padding: 2%;
+border: 5px dashed white;
+}
+
+title {color: white;
+font-weight: bolder;
+font-size: 2em;
+text-shadow: 1px 1px red;
+text-align: left;
+}
+
+author {display: block;
+color: white;
+font-weight: bolder;
+font-size: 2em;
+text-shadow: 1px 1px red;
+text-align: left;
+}
+
+verse {display: block;
+font-family: "Bradley Hand", cursive;
+text-align: center;
+padding-top: 1em;
+padding-bottom: 1em;
+border: 1px solid red;
+border-radius: 5px;
+background-color: #f7e2e1;
+margin: 4px;
+}
+
+line {display: block;
+text-align: left;
+padding-left: 1.5em;
+}

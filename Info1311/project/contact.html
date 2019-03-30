@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="downtownDiner.css" type="text/css" />
+  <link rel="stylesheet" href="dDprint.css" media="print" />
+  
+</head>  
+
+	<!-- Ryan Baker
+     contact.html
+     INFO 1311.2A
+     Olberding
+     5/16/2018
+	-->
+
+<body>  
+<div id="wrapper">
+	<header>
+		<img class="photo" src="images/highres_logo_mod.png" title="Logo" alt="Downtown Diner Logo" width=115 height=100>
+		
+		<h1>The best food money can buy!</h1>
+		<h2>Stop in and see us sometime.</h2>
+	
+	</header>  
+	
+	<nav>
+		<a href="home.html">Home</a>
+		<a href="history.html">History</a>
+		<a href="specials.html">Specials</a>
+		<a href="contact.html">Contact</a>
+	</nav>
+	
+	<main>
+	
+		<h1>Give Us Your Feedback</h1>
+	
+	<form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+		<input name="required" type="hidden" value="fname,lname,email, tel">	
+		<input type="hidden" name="recipient" value="lolberding@mccneb.edu"> 
+		<input type="hidden" name="subject" value="INFO1311 Final Project - Ryan Baker">
+		<input type="hidden" name="redirect" value="http://student.mccinfo.net/~rbaker64/project/redirect_page.html"> 		
+				
+		<fieldset>
+			<legend>Personal Information:</legend>
+			<p>* First Name: <br>
+			<input type="text" name="fname" id="fname" tabindex="1" autofocus required ></p>
+	
+			<p>* Last Name: <br>
+			<input type="text" name="lname" id="lname" tabindex="2" required></p>
+	
+			<p>* Email: <br>
+			<input type="text" name="email" id="email" tabindex="3" required></p>
+		
+			<p>* Telephone Number: <br>
+			<input type="tel" name="phone" id="phone" tabindex="4" required></p>	
+				<p>Please select the type of phone provided below:</p>
+				<input type="checkbox" name="mobile" id="mobile" value="yes" tabindex="5"> Mobile <br>
+				<input type="checkbox" name="home" id="home" value="yes" tabindex="6"> Home <br>
+				<input type="checkbox" name="business" id="business" value="yes" tabindex="7"> Business <br>
+		
+		</fieldset>
+
+		<fieldset>
+			<legend>Prefered Method of Contact:</legend>	
+			<p> Please use the dropdown to select the method you'd like us to reply to your contact. </p>
+			
+				<select size="1" name="choType" id="choType" tabindex="8">
+					<option>Select One Here</option>
+					<option value="choPhone">Phone</option>
+					<option value="choEmail">Email</option>
+					<option value="choText">Text</option>
+					<option value="choNone">None, simply commenting</option>
+				</select>	
+		</fieldset>
+		
+				
+		<fieldset>
+			<legend>Comments:</legend>
+			
+			<p>In 1000 characters or less, please provide your comments below.</p>
+			
+				<textarea name="comment" id="comment" cols="60" rows="7" maxlength="1000" tabindex="9"></textarea>
+		</fieldset>	
+		
+		<fieldset>
+			<legend>Please Review Your Info Before Submitting:</legend>
+		<button type="submit">Submit</button>
+		<button type="reset">Clear Form</button>
+		<p>( * ) Required Field</p>
+		</fieldset>
+	
+	</form>
+		
+			
+	</main>
+
+	<footer>
+		
+		<img src="images/diners_badge.png" title="Award" alt="2018 Diners Badge" width=100 height=100>
+		<!--http://adelesnashville.com, &#169; 2018 -->
+		<p>
+			<a href="images/menu.jpg" target="_blank">Menu</a> | <a href="mailto:rbaker64@mail.mccneb.edu"> Email Us</a> | &#169; 2018 
+		<!--http://adelesnashville.com, &#169; 2018 -->
+		</p>	
+				
+	</footer>
+
+</div>
+
+</body>
+
+</html>

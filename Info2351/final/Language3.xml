@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="transformation3.xsl" type="text/xsl"?>
+<!DOCTYPE collection SYSTEM "validation3.dtd">
+<!--Baker-->
+
+<collection>
+    <podcasts>
+        <podcast count="1">
+            <title>Conan O'Brian Needs A Friend</title>
+            <contributor>Conan O'Brian</contributor>
+            <year>2019</year>
+            <releases>Weekly</releases> 
+            <duration>90 minutes</duration>
+            <listened>Y</listened>
+            <unheard>5 Episodes</unheard>
+            <subscription>Y</subscription>
+            <description>Conan interviews previous guests to determine if they would make a good friend outside of show business.</description>
+        </podcast>
+        <podcast count="2">
+            <title>Hidden Brain</title>
+            <contributor>NPR</contributor>
+            <year>2019</year>
+            <releases>Weekly</releases> 
+            <duration>50 minutes</duration>
+            <listened>N</listened>
+            <unheard>50+</unheard>
+            <subscription>Y</subscription>
+            <description>Shankar Vendantam looks at the unconscious patterns that effect human behavior.</description>
+        </podcast>
+        <podcast count="3">
+            <title>60 Second Science</title>
+            <contributor>Science American</contributor>
+            <year>2019</year>
+            <releases>Daily</releases> 
+            <duration>2-3 minutes</duration>
+            <listened>N</listened>
+            <unheard>15</unheard>
+            <subscription>Y</subscription>
+            <description>Science journalists explore topics of emerging sciences on a daily basis.</description>
+        </podcast>
+        <podcast count="4">
+            <title>Habit Hacked</title>
+            <contributor>Habit Hacked Media</contributor>
+            <year>2017</year>
+            <releases>Archived</releases> 
+            <duration>20-35 minutes</duration>
+            <listened>N</listened>
+            <unheard>30</unheard>
+            <subscription>N</subscription>
+            <description>Inspirational and motivational interviews to help start and finish various projects.</description>
+        </podcast>
+        <podcast count="5">
+            <title>After the Fact</title>
+            <contributor>The Pew Charitable Trusts</contributor>
+            <year>2019</year>
+            <releases>Bi-monthly</releases> 
+            <duration>20 minutes</duration>
+            <listened>Y</listened>
+            <unheard>20</unheard>
+            <subscription>Y</subscription>
+            <description>Data and number driven to explain the details covered in some of society's biggest problems.</description>
+        </podcast>
+        <podcast count="6">
+            <title>Hackable?</title>
+            <contributor>McAfee</contributor>
+            <year>2019</year>
+            <releases>Bi-monthly</releases> 
+            <duration>30 minutes</duration>
+            <listened>N</listened>
+            <unheard>25</unheard>
+            <subscription>Y</subscription>
+            <description>McAfee explores techology to determine if news articles about hacking are true or exaggerated.</description>
+        </podcast>
+
+    </podcasts>
+</collection>

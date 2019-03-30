@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT collection (podcasts)>
+<!ELEMENT podcasts (podcast+) >
+<!ELEMENT podcast (title, contributor, year, releases, duration, listened, unheard, subscription, description) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT contributor (#PCDATA) >
+<!ELEMENT year (#PCDATA) >
+<!ELEMENT releases (#PCDATA) >
+<!ELEMENT duration (#PCDATA) >
+<!ELEMENT listened (#PCDATA) >
+<!ELEMENT unheard (#PCDATA) >
+<!ELEMENT subscription (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ATTLIST podcast count CDATA #REQUIRED >

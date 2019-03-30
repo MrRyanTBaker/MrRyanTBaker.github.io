@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT collection (aquisition) >
+<!ELEMENT aquisition (audio+) >
+<!ELEMENT audio (company, method, content, automatic, affordability) >
+<!ELEMENT company (#PCDATA) >
+<!ELEMENT method (#PCDATA) >
+<!ELEMENT content (#PCDATA) >
+<!ELEMENT automatic (#PCDATA) >
+<!ELEMENT affordability (#PCDATA) >
+<!ATTLIST audio count CDATA #REQUIRED >

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="transformation.xsl" type="text/xsl"?>
+<!DOCTYPE contents SYSTEM "contents.dtd">
+<!--Week 5 Transformation Project by Ryan Baker-->
+
+<contents>
+
+    <unit order="1">
+        <numeral>I</numeral>
+        <title>Introduction &amp; Concepts</title>
+        <start>17</start>
+        <sections group='1'>
+            <chapter><number>1</number><name>Introduction to the Internet of Things</name><page>19</page></chapter>
+            <chapter><number>1.1</number><name>Introduction</name><page>20</page></chapter>
+            <chapter><number>1.1.1</number><name>Definition &amp; Characteristics of IoT</name><page>22</page></chapter>
+            <chapter><number>1.2</number><name>Physical Design of IoT</name><page>24</page></chapter>
+            <chapter><number>1.2.1</number><name>Things in IoT</name><page>24</page></chapter>
+            <chapter><number>1.2.2</number><name>IoT Protocols</name><page>24</page></chapter>
+            <chapter><number>1.3</number><name>Logical Design of IoT</name><page>31</page></chapter>
+            <chapter><number>1.3.1</number><name>IoT Functional Blocks</name><page>31</page></chapter>
+            <chapter><number>1.3.2</number><name>IoT Communication Models</name><page>31</page></chapter>
+            <chapter><number>1.3.3</number><name>IoT Communication APIs</name><page>34</page></chapter>
+            <chapter><number>1.4</number><name>IoT Enabling Technologies</name><page>38</page></chapter>
+            <chapter><number>1.4.1</number><name>Wireless Sensor Networks</name><page>39</page></chapter>
+            <chapter><number>1.4.2</number><name>Cloud Computing</name><page>39</page></chapter>
+            <chapter><number>1.4.3</number><name>Big Data Analytics</name><page>40</page></chapter>
+            <chapter><number>1.4.4</number><name>Communication Protocols</name><page>41</page></chapter>
+            <chapter><number>1.4.5</number><name>Enbedded Systems</name><page>42</page></chapter>
+            <chapter><number>1.5</number><name>IoT Levels &amp; Deployment Templates</name><page>42</page></chapter>
+            <chapter><number>1.5.1</number><name>IoT Level-1</name><page>44</page></chapter>
+            <chapter><number>1.5.2</number><name>IoT Level-1</name><page>44</page></chapter>
+            <chapter><number>1.5.3</number><name>IoT Level-2</name><page>44</page></chapter>
+            <chapter><number>1.5.4</number><name>IoT Level-3</name><page>46</page></chapter>
+            <chapter><number>1.5.5</number><name>IoT Level-4</name><page>48</page></chapter>
+            <chapter><number>1.5.6</number><name>IoT Level-5</name><page>49</page></chapter>        
+            <chapter><number>2</number><name>Domain Specific IoTs</name><page>53</page></chapter> 
+            <chapter><number>2.1</number><name>Introduction</name><page>54</page></chapter> 
+            <chapter><number>2.2</number><name>Home Automation</name><page>54</page></chapter> 
+            <chapter><number>2.2.1</number><name>Smart Lighting</name><page>54</page></chapter> 
+            <chapter><number>2.2.2</number><name>Smart Appliances</name><page>54</page></chapter> 
+            <chapter><number>2.2.3</number><name>Intrusion Detection</name><page>56</page></chapter> 
+            <chapter><number>2.2.4</number><name>Smoke/Gas Detectors</name><page>56</page></chapter> 
+            <chapter><number>2.3</number><name>Cities</name><page>56</page></chapter> 
+            <chapter><number>2.3.1</number><name>Smart Parking</name><page>56</page></chapter> 
+            <chapter><number>2.3.2</number><name>Smart Lighting</name><page>57</page></chapter> 
+            <chapter><number>2.3.3</number><name>Smart Roads</name><page>58</page></chapter> 
+            <chapter><number>2.3.4</number><name>Structural Health Monitoring</name><page>58</page></chapter> 
+            <chapter><number>2.3.5</number><name>Surveillance</name><page>58</page></chapter> 
+            <chapter><number>2.3.6</number><name>Emergency Response</name><page>58</page></chapter> 
+            <chapter><number>2.4</number><name>Environment</name><page>59</page></chapter> 
+            <chapter><number>2.4.1</number><name>Weather Monitoring</name><page>59</page></chapter> 
+            <chapter><number>2.4.2</number><name>Air Pollution Monitoring</name><page>59</page></chapter> 
+            <chapter><number>2.4.3</number><name>Noise Pollution Monitoring</name><page>60</page></chapter> 
+            <chapter><number>2.4.4</number><name>Forest Fire Detection</name><page>61</page></chapter> 
+            <chapter><number>2.4.5</number><name>River Floods Detection</name><page>61</page></chapter> 
+            <chapter><number>2.5</number><name>Energy</name><page>61</page></chapter> 
+            <chapter><number>2.5.1</number><name>Smart Grids</name><page>61</page></chapter> 
+            <chapter><number>2.5.2</number><name>Renewable Energy Systems</name><page>62</page></chapter> 
+            <chapter><number>2.5.3</number><name>Prognostics</name><page>62</page></chapter>
+            <chapter><number>2.6</number><name>Retail</name><page>64</page></chapter>
+            <chapter><number>2.6.1</number><name>Inventory Management</name><page>64</page></chapter>
+            <chapter><number>2.6.2</number><name>Smart Payments</name><page>64</page></chapter>
+            <chapter><number>2.6.3</number><name>Smart Vending Machines</name><page>64</page></chapter>
+            <chapter><number>2.7</number><name>Logistics</name><page>65</page></chapter>
+            <chapter><number>2.7.1</number><name>Route Generation and Scheduling</name><page>65</page></chapter>
+            <chapter><number>2.7.2</number><name>Fleet Tracking</name><page>66</page></chapter>
+            <chapter><number>2.7.3</number><name>Shipping Monitoring</name><page>66</page></chapter>
+            <chapter><number>2.7.4</number><name>Remote Vehicle Diagnositcs</name><page>67</page></chapter>
+            <chapter><number>2.8</number><name>Agriculture</name><page>68</page></chapter>
+            <chapter><number>2.8.1</number><name>Smart Irrigation</name><page>68</page></chapter>
+            <chapter><number>2.8.2</number><name>Green House Control</name><page>69</page></chapter>
+            <chapter><number>2.9</number><name>Industry</name><page>69</page></chapter>
+            <chapter><number>2.9.1</number><name>Machine Diagnosis &amp; Prognosis</name><page>69</page></chapter>
+            <chapter><number>2.9.2</number><name>Indoor Air Quality Monitoring</name><page>70</page></chapter>
+            <chapter><number>2.10</number><name>Health &amp; Lifestyle</name><page>71</page></chapter>
+            <chapter><number>2.10.1</number><name>Health &amp; Fitness Monitoring</name><page>71</page></chapter>
+            <chapter><number>2.10.2</number><name>Wearable Electronics</name><page>72</page></chapter>
+            <chapter><number>3</number><name>IoT and M2M</name><page>75</page></chapter>
+            <chapter><number>3.1</number><name>Introduction</name><page>76</page></chapter>
+            <chapter><number>3.2</number><name>M2M</name><page>76</page></chapter>
+            <chapter><number>3.3</number><name>Difference between IoT and M2M</name><page>77</page></chapter>
+            <chapter><number>3.4</number><name>SDN and NFV for IoT</name><page>80</page></chapter>
+            <chapter><number>3.4.1</number><name>Software Defined Networking</name><page>81</page></chapter>
+            <chapter><number>3.4.2</number><name>Network Function Virtualization</name><page>85</page></chapter>
+            <chapter><number>4</number><name>IoT System Management with NETCONF-YANG</name><page>91</page></chapter>
+            <chapter><number>4.1</number><name>Need for IoT Systems Management</name><page>92</page></chapter>
+            <chapter><number>4.2</number><name>Simple Network Management Protocol (SNMP)</name><page>93</page></chapter>
+            <chapter><number>4.2.1</number><name>Limitations of SNMP</name><page>93</page></chapter>
+            <chapter><number>4.3</number><name>Network Operator Requirements</name><page>94</page></chapter>
+            <chapter><number>4.4</number><name>NETCONF</name><page>96</page></chapter>
+            <chapter><number>4.5</number><name>YANG</name><page>97</page></chapter>
+            <chapter><number>4.6</number><name>IoT Systems Management with NETCONF-YANG</name><page>106</page></chapter>
+            <chapter><number>4.6.1</number><name>NETOPEER</name><page>107</page></chapter>
+        </sections>
+    </unit>
+   
+    <unit order="2">
+        <numeral>II</numeral>
+        <title>Developing Internet of Things</title>
+        <start>111</start>
+        <sections group='2'>
+            <chapter><number>5</number><name>Introduction to the Internet of Things</name><page>113</page></chapter>
+            <chapter><number>5.1</number><name>Introduction</name><page>114</page></chapter>   
+            <chapter><number>5.2</number><name>IoT Design Methodology</name><page>114</page></chapter>   
+            <chapter><number>5.2.1</number><name>Step 1: Purpose &amp; Requirements Specification</name><page>114</page></chapter>   
+            <chapter><number>5.2.2</number><name>Step 2: Process Specification </name><page>116</page></chapter>   
+            <chapter><number>5.2.3</number><name>Step 3: Domain Model Specification </name><page>117</page></chapter>   
+            <chapter><number>5.2.4</number><name>Step 4: Information Model Specifications </name><page>119</page></chapter>   
+            <chapter><number>5.2.5</number><name>Step 5: Service Specifications </name><page>119</page></chapter>   
+            <chapter><number>5.2.6</number><name>Step 6: IoT Level Specifications </name><page>121</page></chapter>   
+            <chapter><number>5.2.7</number><name>Step 7: Functional View Specification </name><page>121</page></chapter>   
+            <chapter><number>5.2.8</number><name>Step 8: Operational View Specification </name><page>125</page></chapter>   
+            <chapter><number>5.2.9</number><name>Step 9: Device &amp; Component Integration </name><page>127</page></chapter>   
+            <chapter><number>5.2.10</number><name>Step 10: Application Development</name><page>127</page></chapter>   
+            <chapter><number>5.3</number><name>Case Study on IoT System for Weather Monitoring</name><page>127</page></chapter>   
+            <chapter><number>5.4</number><name>Motivation for Using Python</name><page>131</page></chapter>   
+            <chapter><number>6</number><name>IoT Systems - Logical Design using Python</name><page>139</page></chapter>   
+            <chapter><number>6.1</number><name>Introduction</name><page>140</page></chapter>   
+            <chapter><number>6.2</number><name>Installing Python</name><page>141</page></chapter>   
+            <chapter><number>6.3</number><name>Python Data Types &amp; Data Structures</name><page>142</page></chapter>   
+            <chapter><number>6.3.1</number><name>Numbers</name><page>142</page></chapter>   
+            <chapter><number>6.3.2</number><name>Strings</name><page>143</page></chapter>   
+            <chapter><number>6.3.3</number><name>Lists</name><page>145</page></chapter>  
+            <chapter><number>6.3.4</number><name>Tuples</name><page>146</page></chapter>
+            <chapter><number>6.3.5</number><name>Dictionaries</name><page>147</page></chapter>
+            <chapter><number>6.3.6</number><name>Type Conversions</name><page>148</page></chapter>   
+            <chapter><number>6.4</number><name>Control Flow</name><page>149</page></chapter>   
+            <chapter><number>6.4.1</number><name>if</name><page>149</page></chapter>   
+            <chapter><number>6.4.2</number><name>for</name><page>150</page></chapter>   
+            <chapter><number>6.4.3</number><name>while</name><page>151</page></chapter>   
+            <chapter><number>6.4.4</number><name>range</name><page>151</page></chapter>   
+            <chapter><number>6.4.5</number><name>break/continue</name><page>151</page></chapter>   
+            <chapter><number>6.4.6</number><name>pass</name><page>152</page></chapter>   
+            <chapter><number>6.5</number><name>Functions</name><page>153</page></chapter>   
+            <chapter><number>6.6</number><name>Modules</name><page>156</page></chapter>   
+            <chapter><number>6.7</number><name>Packages</name><page>159</page></chapter>   
+            <chapter><number>6.8</number><name>File Handling</name><page>159</page></chapter>   
+            <chapter><number>6.9</number><name>Date/Time Operations</name><page>162</page></chapter>   
+            <chapter><number>6.10</number><name>Classes</name><page>163</page></chapter>   
+            <chapter><number>6.11</number><name>Python Packages of Interest for IoT</name><page>167</page></chapter>   
+            <chapter><number>6.11.1</number><name>JSON</name><page>167</page></chapter>   
+            <chapter><number>6.11.2</number><name>XML</name><page>169</page></chapter>   
+            <chapter><number>6.11.3</number><name>HTTPLib &amp; URLLib</name><page>171</page></chapter>   
+            <chapter><number>6.11.4</number><name>SMTPLib</name><page>173</page></chapter>   
+            <chapter><number>7</number><name>IoT Physical Devices &amp; Endpoints</name><page>177</page></chapter>   
+            <chapter><number>7.1</number><name>What is an IoT Device</name><page>178</page></chapter>  
+            <chapter><number>7.1.1</number><name>Basic building blocks of an IoT Device</name><page>178</page></chapter>
+            <chapter><number>7.2</number><name>Exemplary Device: Raspberry Pi</name><page>179</page></chapter>
+            <chapter><number>7.3</number><name>About the Board</name><page>180</page></chapter>   
+            <chapter><number>7.4</number><name>Linux on Raspberry Pi</name><page>181</page></chapter>   
+            <chapter><number>7.5</number><name>Raspberry Pi Interfaces</name><page>186</page></chapter>   
+            <chapter><number>7.5.1</number><name>Serial</name><page>186</page></chapter>   
+            <chapter><number>7.5.2</number><name>SPI</name><page>186</page></chapter>   
+            <chapter><number>7.5.3</number><name>I2C</name><page>186</page></chapter>
+            <chapter><number>7.6</number><name>Programming Raspberry Pi with Python</name><page>186</page></chapter>
+            <chapter><number>7.6.1</number><name>Controlling LED with Raspberry Pi</name><page>186</page></chapter>   
+            <chapter><number>7.6.2</number><name>Interfacing an LED and Switch with Raspberry Pi</name><page>188</page></chapter>   
+            <chapter><number>7.6.3</number><name>Interfacing a Light Sensor (LDR) with Raspberry Pi</name><page>191</page></chapter>   
+            <chapter><number>7.7</number><name>Other IoT Devices</name><page>193</page></chapter>   
+            <chapter><number>7.7.1</number><name>pcDuino</name><page>193</page></chapter>   
+            <chapter><number>7.7.2</number><name>BeagleBone Black</name><page>194</page></chapter>   
+            <chapter><number>7.7.3</number><name>Cubieboard</name><page>194</page></chapter>   
+            <chapter><number>8</number><name>IoT Physical Servers &amp; Cloud Offerings</name><page>197</page></chapter>   
+            <chapter><number>8.1</number><name>Intro to Cloud Storage &amp; Communication APIs</name><page>198</page></chapter>   
+            <chapter><number>8.2</number><name>WAMP - AutoBahn for IoT</name><page>198</page></chapter>   
+            <chapter><number>8.3</number><name>Xively Cloud for IoT</name><page>202</page></chapter>   
+            <chapter><number>8.4</number><name>Python Web Application Framework - Django</name><page>206</page></chapter>   
+            <chapter><number>8.4.1</number><name>Django Architecture</name><page>208</page></chapter>   
+            <chapter><number>8.4.2</number><name>Starting Development with Django</name><page>208</page></chapter>   
+            <chapter><number>8.5</number><name>Designing a RESTful Web API</name><page>218</page></chapter>   
+            <chapter><number>8.6</number><name>Amazon Web Services for IoT</name><page>218</page></chapter>   
+            <chapter><number>8.6.1</number><name>Amazon EC2</name><page>225</page></chapter>   
+            <chapter><number>8.6.2</number><name>Amazon AutoScaling</name><page>227</page></chapter>   
+            <chapter><number>8.6.3</number><name>Amazon S3</name><page>230</page></chapter>   
+            <chapter><number>8.6.4</number><name>Amazon RDS</name><page>231</page></chapter>   
+            <chapter><number>8.6.5</number><name>Amazon DynamoDB</name><page>234</page></chapter>  
+            <chapter><number>8.6.6</number><name>Amazon Kinesis</name><page>237</page></chapter>
+            <chapter><number>8.6.7</number><name>Amazon SQS</name><page>240</page></chapter>
+            <chapter><number>8.6.8</number><name>Amazon EMR</name><page>243</page></chapter>   
+            <chapter><number>8.7</number><name>SkyNet IoT Messaging Platform</name><page>246</page></chapter>   
+            <chapter><number>9</number><name>Case Studies Illustrating IoT Design</name><page>253</page></chapter>   
+            <chapter><number>9.1</number><name>Introduction</name><page>254</page></chapter>   
+            <chapter><number>9.2</number><name>Home Automation</name><page>254</page></chapter>   
+            <chapter><number>9.2.1</number><name>Smart Lighting</name><page>254</page></chapter>
+            <chapter><number>9.2.2</number><name>Home Intrusion Detection</name><page>264</page></chapter>
+            <chapter><number>9.3</number><name>Cities</name><page>277</page></chapter>   
+            <chapter><number>9.3.1</number><name>Smart Parking</name><page>277</page></chapter>  
+            <chapter><number>9.4</number><name>Environment</name><page>289</page></chapter>
+            <chapter><number>9.4.1</number><name>Weather Monitoring System</name><page>289</page></chapter>
+            <chapter><number>9.4.2</number><name>Weather Reporting Bot</name><page>308</page></chapter>   
+            <chapter><number>9.4.3</number><name>Air Pollution Monitoring</name><page>312</page></chapter>   
+            <chapter><number>9.4.4</number><name>Forest Fire Detection</name><page>317</page></chapter>   
+            <chapter><number>9.5</number><name>Agriculture</name><page>323</page></chapter>   
+            <chapter><number>9.5.1</number><name>Smart Irrigation</name><page>323</page></chapter>   
+            <chapter><number>9.6</number><name>Productivity Applications</name><page>327</page></chapter>
+            <chapter><number>9.6.1</number><name>IoT Printer</name><page>327</page></chapter>
+        </sections>      
+    </unit>
+    
+    <unit order="3">
+        <numeral>III</numeral>
+        <title>Advanced Topics</title>
+        <start>333</start>
+        <sections group='3'>
+            <chapter><number>10</number><name>Data Analytics for IoT</name><page>335</page></chapter>   
+            <chapter><number>10.1</number><name>Introduction</name><page>336</page></chapter>   
+            <chapter><number>10.2</number><name>Apache Hadoop</name><page>343</page></chapter>   
+            <chapter><number>10.2.1</number><name>MapReduce Programming Model</name><page>343</page></chapter>   
+            <chapter><number>10.2.2</number><name>Hadoop MapReduce Job Execution</name><page>344</page></chapter>   
+            <chapter><number>10.2.3</number><name>MapReduce Job Execution Workflow</name><page>345</page></chapter>   
+            <chapter><number>10.2.4</number><name>Hadoop Cluster Setup</name><page>347</page></chapter>   
+            <chapter><number>10.3</number><name>Using Hadoop MapReduce for Batch Data Analysis</name><page>354</page></chapter>   
+            <chapter><number>10.3.1</number><name>Hadoop YARN</name><page>357</page></chapter>  
+            <chapter><number>10.4</number><name>Apache Oozie</name><page>366</page></chapter>
+            <chapter><number>10.4.1</number><name>Setting up Oozie</name><page>366</page></chapter>
+            <chapter><number>10.4.2</number><name>Oozie Workflows for IoT Data Analysis</name><page>368</page></chapter>   
+            <chapter><number>10.5</number><name>Apache Spark</name><page>377</page></chapter>   
+            <chapter><number>10.6</number><name>Apache Storm</name><page>384</page></chapter>   
+            <chapter><number>10.6.1</number><name>Setting up a Storm Cluster</name><page>385</page></chapter>   
+            <chapter><number>10.7</number><name>Using Apache Storm for Real-time Data Analysis</name><page>388</page></chapter>   
+            <chapter><number>10.7.1</number><name>REST-based approach</name><page>389</page></chapter>
+            <chapter><number>10.7.2</number><name>WebSocket-based approach</name><page>398</page></chapter>
+            <chapter><number>10.8</number><name>Structural Health Monitoring Case Study</name><page>404</page></chapter>   
+            <chapter><number>11</number><name>Tools for IoT</name><page>413</page></chapter>   
+            <chapter><number>11.1</number><name>Introduction</name><page>414</page></chapter>   
+            <chapter><number>11.2</number><name>Chef</name><page>414</page></chapter>   
+            <chapter><number>11.2.1</number><name>Setting up Chef</name><page>417</page></chapter>   
+            <chapter><number>11.3</number><name>Chef Case Studies</name><page>417</page></chapter>   
+            <chapter><number>11.3.1</number><name>Multi-tier Application Deployment</name><page>417</page></chapter>   
+            <chapter><number>11.3.2</number><name>Hadoop Cluster</name><page>424</page></chapter>   
+            <chapter><number>11.3.3</number><name>Storm Cluster</name><page>433</page></chapter>  
+            <chapter><number>11.4</number><name>Puppet</name><page>438</page></chapter>
+            <chapter><number>11.5</number><name>Puppet Case Study - Multi-tier Deployment</name><page>440</page></chapter>
+            <chapter><number>11.6</number><name>NETCONF-YANG Case Studies</name><page>444</page></chapter>   
+            <chapter><number>11.6.1</number><name>Steps for IoT device Management with NETCONF-YANG</name><page>445</page></chapter>   
+            <chapter><number>11.6.2</number><name>Managing Smart Irrigation IoT System with NETCONF-YANG</name><page>446</page></chapter>   
+            <chapter><number>11.6.3</number><name>Managing Home Intrusion Detection IoT System with NETCONF-YANG</name><page>462</page></chapter>   
+            <chapter><number>11.7</number><name>IoT Code Generator</name><page>476</page></chapter>
+        </sections>
+    </unit>
+
+    <unit order="4">
+        <numeral></numeral>
+        <title></title>
+        <start></start>
+        <sections group='4'>
+            <chapter><number></number><name>Appendix-A - Setting up Raspberry Pi</name><page>486</page></chapter> 
+            <chapter><number></number><name>Appendix-B - Setting up Ubuntu VM</name><page>490</page></chapter> 
+            <chapter><number></number><name>Appendix-C - Setting up Django</name><page>506</page></chapter> 
+            <chapter><number></number><name>Bibilography</name><page>515</page></chapter> 
+            <chapter><number></number><name>Index</name><page>517</page></chapter> 
+        </sections>     
+    </unit>
+ 
+</contents>
+

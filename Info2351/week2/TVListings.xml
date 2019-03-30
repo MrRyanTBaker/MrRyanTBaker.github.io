@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tvlistings SYSTEM "guide.dtd">
+<!--Edited by Ryan Baker, Week 3-->
+<tvlistings>
+    <stations>
+        <station>
+            <station_id>CBS</station_id>
+            <channel_position>001</channel_position>
+            <station_icon/>
+        </station>
+        <station>
+            <station_id>ABC</station_id>
+            <channel_position>002</channel_position>
+            <station_icon/>
+        </station>
+        <station>
+            <station_id>NBC</station_id>
+            <channel_position>003</channel_position>
+            <station_icon/>
+        </station>
+        <station>
+            <station_id>FOX</station_id>
+            <channel_position>005</channel_position>
+            <station_icon/>
+        </station>
+        <station>
+            <station_id>PBS</station_id>
+            <channel_position>006</channel_position>
+            <station_icon/>
+        </station>
+    </stations>    
+    <tvshows>
+        <program>
+            <episode_id>The Young and the Restless</episode_id>
+            <episode_title>Gail's Affair</episode_title>
+            <episode_program/>
+            <oair_date>Wednesday, October 17</oair_date>
+            <air_start>10:30</air_start>
+            <air_end>12:30</air_end>
+        </program>
+        <program>
+            <episode_id>The Bold and the Beautiful</episode_id>
+            <episode_title>Todd's Plane Crash</episode_title>
+            <episode_program/>
+            <oair_date>Wednesday, October 17</oair_date>
+            <air_start>12:30</air_start>
+            <air_end>13:00</air_end>
+        </program>
+        <program>
+            <episode_id>Local Programming</episode_id>
+            <episode_title>Morna's Kitchen Ep 022</episode_title>
+            <episode_program>Family</episode_program>
+            <oair_date>Unknown</oair_date>
+            <air_start>11:00</air_start>
+            <air_end>12:00</air_end>
+        </program>
+        <program>
+            <episode_id>GMA Day</episode_id>
+            <episode_title>Wednesday, October 17, 2018</episode_title>
+            <episode_program>News</episode_program>
+            <oair_date>Wednesday, October 17</oair_date>
+            <air_start>12:00</air_start>
+            <air_end>13:00</air_end>
+        </program>
+        <program>
+            <episode_id>Local Programming</episode_id>
+            <episode_title>Larry's Garage Ep 120</episode_title>
+            <episode_program>Favorites</episode_program>
+            <oair_date>Unknown</oair_date>
+            <air_start>11:00</air_start>
+            <air_end>12:00</air_end>
+        </program>
+        <program>
+            <episode_id>Days of Our Lives</episode_id>
+            <episode_title>Theo's Affair</episode_title>
+            <episode_program/>
+            <oair_date>Wednesday, October 17</oair_date>
+            <air_start>12:00</air_start>
+            <air_end>13:00</air_end>            
+        </program>
+        <program>
+            <episode_id>Local Programming</episode_id>
+            <episode_title>See Omaha Ep 203</episode_title>
+            <episode_program>Family</episode_program>
+            <oair_date>Unknown</oair_date>
+            <air_start>8:00</air_start>
+            <air_end>12:00</air_end>
+        </program>
+        <program>
+            <episode_id>Local Programming</episode_id>
+            <episode_title>Financial Gains Ep 301</episode_title>
+            <episode_program>News</episode_program>
+            <oair_date>Unknown</oair_date>
+            <air_start>12:00</air_start>
+            <air_end>18:00</air_end>
+        </program>
+        <program>
+            <episode_id>Peg + Cat</episode_id>
+            <episode_title>Red Ball Bounce</episode_title>
+            <episode_program>Favorites</episode_program>
+            <oair_date>Unknown</oair_date>
+            <air_start>11:00</air_start>
+            <air_end>12:00</air_end>
+        </program>
+        <program>
+            <episode_id>Sesame Street</episode_id>
+            <episode_title>Elmo Loves Everyone 5849</episode_title>
+            <episode_program>Family</episode_program>
+            <oair_date>Unknown</oair_date>
+            <air_start>12:00</air_start>
+            <air_end>12:30</air_end>
+        </program>
+        <program>
+            <episode_id>Splash and Bubbles</episode_id>
+            <episode_title>Freddy Friendship</episode_title>
+            <episode_program>Family</episode_program>
+            <oair_date>Unknown</oair_date>
+            <air_start>12:30</air_start>
+            <air_end>13:00</air_end>
+        </program>
+    </tvshows>
+</tvlistings>

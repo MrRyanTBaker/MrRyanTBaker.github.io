@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Contact Me</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+  <link rel="stylesheet" href="print.css" media="print" />
+  
+</head>  
+
+<body>  
+<div id="wrapper">
+	
+	<header>
+	
+		<h1>Ryan Baker's Audio Experience</h1>
+
+		<h2>Winter 2018</h2>
+	
+	</header>  
+	
+	<nav>
+		<a href="home.html">Home</a>
+		<a href="Language1.xml">Recent</a>
+		<a href="Language2.xml">Waiting</a>
+		<a href="Language3.xml">Podcasts</a>
+		<a href="Language4.xml">Discovering</a>
+		<a href="contact.html">Contact</a>
+	</nav>
+	
+	<main>
+	
+		<h1>I'd Love to Hear From You!</h1>
+		<h2>Send Us Your Feedback</h2>
+	
+	<form  method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+		<input name="required" type="hidden" value="fname,lname,email, tel">	
+		<input type="hidden" name="recipient" value="lolberding@mccneb.edu"> 
+		<input type="hidden" name="subject" value="INFO2351 Final Project - Ryan Baker">
+		<input type="hidden" name="redirect" value="http://student.mccinfo.net/~rbaker64/Info2351/final/redirect_page.html">		
+				
+		<fieldset>
+			<legend>Personal Information:</legend>
+			<p>* First Name: <br>
+			<input type="text" name="fname" id="fname" tabindex="1" autofocus required ></p>
+	
+			<p>* Last Name: <br>
+			<input type="text" name="lname" id="lname" tabindex="2" required></p>
+	
+			<p>* Email: <br>
+			<input type="text" name="email" id="email" tabindex="3" required></p>
+		
+			<p>* Telephone Number: <br>
+			<input type="tel" name="phone" id="phone" tabindex="4" required></p>	
+				<p>Please select the type of phone provided below:</p>
+				<input type="checkbox" name="mobile" id="mobile" value="yes" tabindex="5"> Mobile <br>
+				<input type="checkbox" name="home" id="home" value="yes" tabindex="6"> Home <br>
+				<input type="checkbox" name="business" id="business" value="yes" tabindex="7"> Business <br>
+		
+		</fieldset>
+
+		<fieldset>
+			<legend>Prefered Method of Contact:</legend>	
+			<p> Please use the dropdown to select the method you'd like us to reply to your contact. </p>
+			
+				<select size="1" name="choType" id="choType" tabindex="8">
+					<option>Select One Here</option>
+					<option value="choPhone">Phone</option>
+					<option value="choEmail">Email</option>
+					<option value="choText">Text</option>
+					<option value="choNone">None, simply commenting</option>
+				</select>	
+		</fieldset>
+		
+				
+		<fieldset>
+			<legend>Comments:</legend>
+			
+			<p>In 1000 characters or less, please provide your comments below.</p>
+			
+				<textarea name="comment" id="comment" cols="60" rows="7" maxlength="1000" tabindex="9"></textarea>
+		</fieldset>	
+		
+		<fieldset>
+			<legend>Please Review Your Info Before Submitting:</legend>
+		<button type="button" disabled>Submit</button>
+		<h4><a href="http://student.mccinfo.net/~rbaker64/Info2351/final/redirect_page.html">Submit (button due to no secure mail server being set up)</a></h4>
+		<button type="reset">Clear Form</button>
+		<p>( * ) Required Field</p>
+		</fieldset>
+	
+	</form>
+		
+			
+	</main>
+
+	<footer>
+		
+		<p>Created By: <a href="mailto:rbaker64@mail.mccneb.edu">Ryan Baker</a></p>
+				
+	</footer>
+
+</div>
+
+</body>
+
+</html>

@@ -1,2 +1,0 @@
-# MrRyanTBaker.github.io
-Projects

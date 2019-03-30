@@ -1,0 +1,138 @@
+header, nav, main, footer { display: block; 
+}
+
+#wrapper {margin: 2% 40px 2% 40px;
+		padding-top: 40px;
+		border: 2px solid black;
+		border-radius: 20px;
+		background-color: #ff9999;	
+		background-image: linear-gradient(to bottom, #ff9999, #ffffff);
+		background-repeat: no-repeat;		
+}
+
+header {margin: 0 2% 0 2%;
+	text-align: center;
+	background-color: white;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 15px;	
+}
+
+header img {float: left;
+	padding-top: 25px;
+	padding-left: 45px;
+}
+header h1 {font-family: Apple Chancery, fancy;
+		font-size: 3em;
+		padding-top: 10px;
+		padding-right: 25px;
+		color: #33ffff;
+		text-align: center;
+		text-shadow: 1px 1px 1px black;
+}
+
+header h2 {font-family: Bradley Hand, fancy;
+	margin-top: -20px;
+	padding-right: 25px;
+	text-align: right;
+	color: black;
+}
+
+h1 {font-family: Apple Chancery, fancy;
+		font-size: 3em;
+		color: #33ffff;
+		text-align: center;
+		text-shadow: 1px 1px 1px black;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		margin: 0;
+}
+
+h2 { /*No independent h2 elements, addressed requirement in header/h2*/
+}
+
+nav {font-family: "Lucida Console", Monaco, monospace;
+	color: #000000;
+	padding-top: 20px;
+	text-align: center;
+}
+
+a:link {display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding-left: 5%;
+	padding-right: 5%;}
+a:active {color: #eaeaea;}
+a:visited {text-decoration: none;
+	color: #000000;}
+a:hover {color: #33ffff;}
+
+body {background-image: url(images/checkerboard.jpg);
+	margin: 0;
+}
+
+main div {text-align: center;
+}
+
+main p {font-size: 1.5em;
+	text-indent: 2em;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+footer {text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;	
+	padding-top: 20px;
+}
+
+ul {font-family: "Lucida Console", Monaco, monospace;
+	color: #000000;
+	list-style-type: none;
+}
+
+ul li {padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+fieldset {border: 2px solid #33ffff;
+padding: 10px;
+}
+
+fieldset p {text-indent: 0px;
+}		
+
+legend {font-weight: bold;
+}
+
+figcaption {font-size: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+		body {margin: auto;}
+		h2 {display: none;}
+		main {font-size: 1em;
+		padding: 1em;
+		margin-left: auto;
+		font-size: 1em;}
+		footer {margin: auto;
+		padding-top: 30px;
+		margin: auto;
+		box-shadow: none;}
+		nav { ;}
+}
+
+@media only screen and (max-width: 768px) {
+	
+		header h1 {display: none;}
+		header h2 {display: none;}
+		header {text-align:center;}
+		header img {float: none;
+		padding-left: 0px;}
+		main {font-size: 80%;
+		padding: 0px;}
+		main img {display: none;}
+		footer {padding: 10px;}
+		#wrapper {margin: 0px;
+		padding-top: 40px;}
+		nav {;}
+}

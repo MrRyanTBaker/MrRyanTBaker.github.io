@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="recipe">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="time"/>
+                <xs:element ref="yield"/>
+                <xs:element ref="ingredient-list"/>
+                <xs:element ref="supply-list"/>
+                <xs:element ref="steps"/>
+             </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="time">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="prep"/>
+                <xs:element ref="chill"/>
+                <xs:element ref="bake"/>
+                <xs:element ref="cook"/>
+                <xs:element ref="cool"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="prep" type="xs:string"/>
+    <xs:element name="chill" type="xs:string"/>
+    <xs:element name="bake" type="xs:string"/>
+    <xs:element name="oook" type="xs:string"/>
+    <xs:element name="cool" type="xs:string"/>
+    <xs:element name="yeild" type="xs:string"/>
+    <xs:element name="ingredient-list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ingredient"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ingredient">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="amount"/>
+                <xs:element ref="description"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="amount" type="xs:string"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="supply-list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="pan"/>
+                <xs:element ref="special"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="utencil" type="xs:string"/>
+    <xs:element name="pan" type="xs:string"/>
+    <xs:element name="special" type="xs:string"/>
+    <xs:element name="steps">
+        <xs:complexType>
+            <xs:element ref="step"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="step" type="xs:string"/>
+        <xs:complexType mixed="true">
+            <xs:attributeGroup ref="attlist.step"/>
+        </xs:complexType>
+    <xs:attributeGroup name="attlist.step">
+        <xs:attribute name="order" use="required" type="integer"/>        
+    </xs:attributeGroup> 
+</xs:schema>

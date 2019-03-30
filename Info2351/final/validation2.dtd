@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT collection (waiting) >
+<!ELEMENT waiting (album+) >
+<!ELEMENT album (title, artist, genre, year, tracks, description) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT artist (#PCDATA) >
+<!ELEMENT genre (#PCDATA) >
+<!ELEMENT year (#PCDATA) >
+<!ELEMENT tracks (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ATTLIST album count CDATA #REQUIRED >

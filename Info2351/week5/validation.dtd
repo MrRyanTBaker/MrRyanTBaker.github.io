@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT year (planting, harvest) >
+<!ELEMENT planting (season+) >
+<!ELEMENT harvest (season+) >
+<!ELEMENT season (month+) >
+<!ELEMENT month (#PCDATA) >
+<!ATTLIST season period CDATA #REQUIRED>
