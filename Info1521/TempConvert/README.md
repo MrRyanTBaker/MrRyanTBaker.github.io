@@ -1,1 +1,0 @@
-Fahrenheit to Celcius converter, input validation, loop
