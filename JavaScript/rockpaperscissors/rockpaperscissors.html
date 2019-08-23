@@ -24,14 +24,23 @@ else if(computerChoice >= 66) {
 else {
 	computerChoice = "scissors";
 }
-var compare = function (choice1, choice2) {if (choice1 === choice2) {return "You Tied!";}
-else if(choice1==="rock") {if (choice2==="scissors") {return"You Beat Scissors!";}
-else if (choice2==="paper") {return "You Lose to Paper!";}}
+var compare = function (choice1, choice2) {
+	if (choice1 === choice2) {return "You Tied!";}
+	
+else if(choice1==="rock") {if (choice2==="scissors") {return "You Beat Scissors!";}
+
+else if(choice2==="paper") {return "You Lose to Paper!";}}
+
 else if(choice1==="paper") {if (choice2==="rock") {return"You Beat Rock!";}
-else if (choice2==="scissors") {return "You Lose to Scissors!";}}
+
+else if(choice2==="scissors") {return "You Lose to Scissors!";}}
+
 else if(choice1==="scissors") {if (choice2==="rock") {return"You Lose to Rock!";}
-else if (choice2==="paper") {return "You Beat Paper!";}}};
-alert(compare(userChoice,computerChoice));     
+
+else if(choice2==="paper") {return "You Beat Paper!";}}};
+
+alert(compare(userChoice,computerChoice));  
+   
 </script>    
     
     
