@@ -123,13 +123,12 @@ h2 {color: blue;
 	text-align: center;
 }
 
-p {text-indent: 2em;
+p {text-indent: 1em;
 text-align: left;
 font-family: serif; 
 color: black;
 font-size: 1em;
-margin-left: 2em;
-margin-right: 2em;
+margin-right: 1em;
 }
 
 ol { font-family: monospace;
